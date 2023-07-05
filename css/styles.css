@@ -716,6 +716,7 @@ textarea {
 
 /* checkbox */
 .modal-cheackbox {
+  display: inline-flex;
   margin-bottom: 24px;
 }
 
