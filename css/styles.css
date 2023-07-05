@@ -659,7 +659,7 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.48px;
 }
 .registr-field {
@@ -696,12 +696,14 @@ img {
   fill: var(--primary-brand);
 }
 /* textarea */
+.modal-textarea {
+  margin-bottom: 16px;
+}
 .registr-comment {
   resize: none;
   height: 120px;
   padding-left: 16px;
   padding-top: 8px;
-  margin-bottom: 16px;
 }
 textarea {
   color: rgba(46, 47, 66, 0.4);
@@ -714,11 +716,14 @@ textarea {
 }
 
 /* checkbox */
+.modal-cheackbox {
+  margin-bottom: 24px;
+}
+
 .registr-agreenent {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 24px;
 }
 .registr-agreenent-checkbox {
 }
