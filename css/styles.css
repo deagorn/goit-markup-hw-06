@@ -488,6 +488,7 @@ img {
 
 .footer-email {
   width: 453px;
+  display: flex;
 }
 .footer-email-input {
   margin-right: 24px;
