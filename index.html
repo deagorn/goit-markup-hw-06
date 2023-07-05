@@ -493,8 +493,8 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form" name="registr">
+          <!-- Name -->
           <div class="modal-inputs">
-            <!-- Name -->
             <label for="user-name" class="registr-label">Name</label>
             <div class="registr-field">
               <input
@@ -509,8 +509,8 @@
             </div>
           </div>
 
+          <!-- Phone -->
           <div class="modal-inputs">
-            <!-- Phone -->
             <label for="registr-phone" class="registr-label"> Phone </label>
             <div class="registr-field">
               <input
@@ -525,8 +525,8 @@
             </div>
           </div>
 
+          <!-- Email -->
           <div class="modal-inputs">
-            <!-- Email -->
             <label for="registr-email" class="registr-label"> Email </label>
             <div class="registr-field">
               <input
@@ -554,25 +554,31 @@
           </div>
 
           <!-- cheackbox -->
-          <div class="modal-cheackbox"></div>
-          <label class="registr-label registr-agreenent">
+          <div class="modal-cheackbox">
             <input
               class="registr-agreenent-checkbox visually-hidden"
               type="checkbox"
-              name="user-agreenent"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <svg class="registr-agreenent-icon" width="16" height="16">
-              <use
-                href="./images/icons.svg#icon-unchecked"
-                class="unchecked"
-              ></use>
-              <use href="./images/icons.svg#icon-checked" class="checked"></use>
-            </svg>
-            <span class="registr-agreenent-disc"
-              >I accept the terms and conditions of the
-              <a href="" class="registr-agreenent-link">Privacy Policy</a>
-            </span>
-          </label>
+            <label
+              for="user-privacy"
+              class="registr-label registr-agreenent"
+            ></label>
+          </div>
+
+          <svg class="registr-agreenent-icon" width="16" height="16">
+            <use
+              href="./images/icons.svg#icon-unchecked"
+              class="unchecked"
+            ></use>
+            <use href="./images/icons.svg#icon-checked" class="checked"></use>
+          </svg>
+          <span class="registr-agreenent-disc"
+            >I accept the terms and conditions of the
+            <a href="" class="registr-agreenent-link">Privacy Policy</a>
+          </span>
 
           <button type="submit" class="registr-btn">Send</button>
         </form>

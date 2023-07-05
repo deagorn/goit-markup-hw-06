@@ -702,8 +702,7 @@ img {
 .registr-comment {
   resize: none;
   height: 120px;
-  padding-left: 16px;
-  padding-top: 8px;
+  padding: 8px 16px;
 }
 textarea {
   color: rgba(46, 47, 66, 0.4);
