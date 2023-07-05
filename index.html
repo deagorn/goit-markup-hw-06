@@ -466,6 +466,74 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-caption">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form" name="registr">
+          <!-- Name -->
+          <label for="registr_name" class="registr-label"> Name </label>
+          <div class="registr-field">
+            <input
+              class="registr-input"
+              type="text"
+              name="registr_name"
+              id="registr_name"
+            />
+            <svg class="registr-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+
+          <!-- Phone -->
+          <label for="registr_phone" class="registr-label"> Phone </label>
+          <div class="registr-field">
+            <input
+              class="registr-input"
+              type="tel"
+              name="registr_phone"
+              id="registr_phone"
+            />
+            <svg class="registr-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+
+          <!-- Email -->
+          <label for="registr_email" class="registr-label"> Email </label>
+          <div class="registr-field">
+            <input
+              class="registr-input"
+              type="email"
+              name="registr_email"
+              id="registr_email"
+            />
+            <svg class="registr-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+
+          <!-- Comment -->
+          <label for="registr_comment" class="registr-label">Comment</label>
+          <textarea
+            name="registr_comment"
+            id="registr_comment"
+            class="registr-comment registr-input"
+            placeholder="Text input"
+          ></textarea>
+
+          <!-- cheackbox -->
+          <label class="registr-label registr-agreenent">
+            <input
+              class="registr-agreenent-checkbox"
+              type="checkbox"
+              name="user-agreenent"
+            />
+            <span class="registr-agreenent-disc"
+              >I accept the terms and conditions of the
+              <a href="" class="registr-agreenent-link">Privacy Policy</a>
+            </span>
+          </label>
+        </form>
       </div>
     </div>
 
