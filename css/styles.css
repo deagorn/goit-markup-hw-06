@@ -488,11 +488,11 @@ img {
 
 .footer-email {
   width: 453px;
+  display: flex;
+  gap: 24px;
 }
 
 .footer-email-label {
-  display: flex;
-  gap: 24px;
 }
 .footer-email-input {
   background-color: transparent;
