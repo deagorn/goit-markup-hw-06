@@ -752,7 +752,7 @@ textarea {
   background-color: var(--pressed-state);
   border: none;
 }
-.registr-agreenent-icon {
+.registr-agreenent-svg {
   fill: var(--light);
 }
 
