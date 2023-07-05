@@ -721,7 +721,8 @@ textarea {
 
 .registr-agreenent {
   user-select: none;
-  display: flex;
+  /* display: flex; */
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   font-size: 12px;
