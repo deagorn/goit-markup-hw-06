@@ -724,9 +724,8 @@ textarea {
   align-items: center;
   gap: 8px;
 }
-.registr-agreenent-checkbox {
+.registr-agreenent-disc {
 }
-
 .registr-agreenent-link {
   color: var(--primary-brand);
 }
