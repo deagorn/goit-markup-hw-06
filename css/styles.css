@@ -746,12 +746,14 @@ textarea {
   color: var(--primary-brand);
 }
 
-.registr-agreenent-checkbox:checked + .registr-agreenent-svg {
-  background-color: #404bbf;
+.registr-agreenent-checkbox:checked
+  + .registr-agreenent
+  > .registr-agreenent-svg {
+  background-color: var(--pressed-state);
   border: none;
 }
 .registr-agreenent-icon {
-  fill: #f4f4fd;
+  fill: var(--light);
 }
 
 /* Button SEND */
