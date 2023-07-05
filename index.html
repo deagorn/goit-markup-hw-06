@@ -421,6 +421,7 @@
           </p>
         </div>
 
+        <!-- footer-second-part -->
         <div class="footer-second-part">
           <p class="footer-second-text">Social media</p>
 
@@ -454,6 +455,28 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <!-- footer-third-part -->
+        <div class="footer-third-part">
+          <p class="footer-second-text">Subscribe</p>
+          <form class="footer-email">
+            <label for="footer_email"></label>
+            <input
+              class="footer-email-input"
+              type="email"
+              name="footer_email"
+              id="footer_email"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="footer_email_btn">
+              Subscribe
+              <svg class="" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -524,15 +547,24 @@
           <!-- cheackbox -->
           <label class="registr-label registr-agreenent">
             <input
-              class="registr-agreenent-checkbox"
+              class="registr-agreenent-checkbox visually-hidden"
               type="checkbox"
               name="user-agreenent"
             />
+            <svg class="registr-agreenent-icon" width="16" height="16">
+              <use
+                href="./images/icons.svg#icon-unchecked"
+                class="unchecked"
+              ></use>
+              <use href="./images/icons.svg#icon-checked" class="checked"></use>
+            </svg>
             <span class="registr-agreenent-disc"
               >I accept the terms and conditions of the
               <a href="" class="registr-agreenent-link">Privacy Policy</a>
             </span>
           </label>
+
+          <button type="submit" class="registr-btn">Send</button>
         </form>
       </div>
     </div>
