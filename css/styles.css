@@ -754,6 +754,7 @@ textarea {
   > .registr-agreenent-svg {
   background-color: var(--pressed-state);
   border: none;
+  fill: var(--light);
 }
 
 /* Button SEND */
